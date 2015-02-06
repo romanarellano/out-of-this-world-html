@@ -17,16 +17,18 @@ body{
   font-family: "Alegreya SC",italic;
   color:rgb(86,140,227);
   border: dashed 5px ;
-  padding:30px;
-  margin:20px;
+  padding:20px 20px 20px 20px;
+  margin:auto;
+  width:130px;
   text-align: center;
   -webkit-transition: width 2s ease;
   transition: width 2s ease;
 }
-#title :hover{
+#title:hover{
 
-
-    width: 300px;
+  -webkit-transition: width 2s ease;
+  transition: width 2s ease;
+    width: 500px;
 
 }
 
