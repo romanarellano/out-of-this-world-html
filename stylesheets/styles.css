@@ -20,8 +20,8 @@ body{
   padding:30px;
   margin:20px;
   text-align: center;
-  -webkit-transition: width 2s;
-  transition: width 2s;
+  -webkit-transition: width 2s ease;
+  transition: width 2s ease;
 }
 #title :hover{
 
