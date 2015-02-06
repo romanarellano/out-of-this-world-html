@@ -7,13 +7,19 @@ body{
   max-width: 900px;
   font-size: 20px;
   color:rgb(215,107,242);
-  background: #4B4B36;
+  background: url("./grey_wash_wall.png");
   line-height: 20px;
+  margin:auto;
+
 }
 #title{
 
   font-family: "Alegreya SC",italic;
   color:rgb(86,140,227);
+  border: dashed 5px ;
+  padding:30px,40px,63px;
+  margin:20px;
+  text-align: center;
 }
 #subtitle{
 
