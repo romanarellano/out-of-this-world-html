@@ -17,10 +17,19 @@ body{
   font-family: "Alegreya SC",italic;
   color:rgb(86,140,227);
   border: dashed 5px ;
-  padding:30px,40px,63px;
+  padding:30px;
   margin:20px;
   text-align: center;
+  -webkit-transition: width 2s;
+  transition: width 2s;
 }
+#title :hover{
+
+
+    width: 300px;
+
+}
+
 #subtitle{
 
   color:rgb(227,133,86);
@@ -31,8 +40,8 @@ font-family: Lobster;
 
 }
 p{
-color: #5ECCCC;
-;
+color: rgb(175, 157, 179);
+
 
 }
 
@@ -45,8 +54,13 @@ color: rgb(203,227,86);
 }
 
 section{
-  background-image: url('http://tenisperu.com.pe/tenis/img/noticia/761_1423092930.jpg' width="40px");
+  
   font-family: Short Stack,cursive;
 }
 
-//<!-- Alegreya+SC:900 -->
+footer :hover{
+
+  color:#FFFFFF
+;
+}
+
