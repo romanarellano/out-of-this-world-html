@@ -1,6 +1,6 @@
 
 
-@import url(http://fonts.googleapis.com/css?family=Short+Stack|Emblema+One|Lobster|Alegreya+SC:900,700italic|Alegreya);
+@import url(http://fonts.googleapis.com/css?family=Short+Stack|Emblema+One|Lobster|Orbitron|900|Alegreya+SC:900,700italic|Alegreya);
 
 body{
 
@@ -13,6 +13,10 @@ body{
   background-attachment: fixed;
 
 }
+
+
+
+
 #title{
 
   font-family: "Alegreya SC",italic;
@@ -33,13 +37,29 @@ body{
 
 }
 
-#subtitle{
+h2#subtitle{
 
   color:rgb(227,133,86);
+  margin: 2em 9em;
 }
 
 ul li{
-font-family: Lobster;
+font-family: Orbitron,sans-serif;
+display:inline-block;
+background-size: 95px;
+//height:20px;
+font-size:1.2em;
+padding: 5px 2px;
+
+
+
+}
+ul li:hover{
+
+background:#E3DED8;
+background-size: 95px;
+border-radius: 10px;
+
 
 }
 p{
@@ -65,5 +85,22 @@ footer :hover{
 
   color:#FFFFFF
 ;
+}
+.sub_nav{
+
+  position:relative;
+}
+
+.sub_nav ul{
+
+  display:none;
+  position:relative;
+  
+
+}
+.sub_nav:hover ul{
+  top:100%;
+  display:block;
+
 }
 
