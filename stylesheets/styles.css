@@ -1,12 +1,12 @@
 
 
-@import url(http://fonts.googleapis.com/css?family=Short+Stack|Emblema+One|Lobster|Orbitron|900|Alegreya+SC:900,700italic|Alegreya);
+@import url(http://fonts.googleapis.com/css?family=Short+Stack|Emblema+One|Lobster|Orbitron:900|Alegreya+SC:900,700italic|Alegreya);
 
 body{
 
   max-width: 900px;
   font-size: 20px;
-  color:rgb(215,107,242);
+  color:rgb(209, 191, 213);
   background: url("./grey_wash_wall.png");
   line-height: 20px;
   margin:auto;
@@ -20,20 +20,21 @@ body{
 #title{
 
   font-family: "Alegreya SC",italic;
+  
   color:rgb(86,140,227);
   border: dashed 5px ;
   padding:20px 20px 20px 20px;
   margin:auto;
-  width:130px;
+  max-width:150px;
   text-align: center;
-  -webkit-transition: width 2s ease;
-  transition: width 2s ease;
+  -webkit-transition: max-width 2s ease;
+  transition: max-width 2s ease;
 }
 #title:hover{
 
-  -webkit-transition: width 2s ease;
-  transition: width 2s ease;
-    width: 500px;
+  -webkit-transition: max-width 2s ease;
+  transition: max-width 2s ease;
+    max-width: 500px;
 
 }
 
@@ -43,22 +44,27 @@ h2#subtitle{
   margin: 2em 9em;
 }
 
+h3 ul{
+
+  list-style-type:circle;
+}
+
 ul li{
-font-family: Orbitron,sans-serif;
+font-family: Orbitron;
 display:inline-block;
 background-size: 95px;
-//height:20px;
 font-size:1.2em;
-padding: 5px 2px;
-
+padding: 8px 2px;
+box-sizing:border-box;
 
 
 }
 ul li:hover{
 
-background:#E3DED8;
+background:rgb(215,107,242);;
 background-size: 95px;
-border-radius: 10px;
+border-radius: 15px;
+
 
 
 }
@@ -76,6 +82,7 @@ font-family: EmblemaOne,cursive;
 color: rgb(203,227,86);
 }
 
+
 section{
   
   font-family: Short Stack,cursive;
@@ -89,18 +96,26 @@ footer :hover{
 .sub_nav{
 
   position:relative;
+ 
 }
 
 .sub_nav ul{
 
   display:none;
-  position:relative;
   
+  //padding:0;
+
 
 }
 .sub_nav:hover ul{
-  top:100%;
-  display:block;
+
+ position:absolute;
+ padding-left: 0;
+ top:110%;
+ display:block;
+  
+
+
 
 }
 
