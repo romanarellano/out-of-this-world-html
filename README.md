@@ -1,6 +1,8 @@
 Out of This World
 ======================
 
+run with http-server
+
 Follow each step exactly.
 
 Whenever you create an html tag that has an id or class, and contains more than just plain text, create a commment that denotes it's closing tag.
